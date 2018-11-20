@@ -1,0 +1,6 @@
+C:\Users\jay\Documents\Git\aoPageExtension\Source\PageExtension\PageExtension\obj\Debug\PageExtension.csproj.CoreCompileInputs.cache
+C:\Users\jay\Documents\Git\aoPageExtension\Source\PageExtension\PageExtension\bin\Debug\PageExtension.dll.config
+C:\Users\jay\Documents\Git\aoPageExtension\Source\PageExtension\PageExtension\bin\Debug\PageExtension.dll
+C:\Users\jay\Documents\Git\aoPageExtension\Source\PageExtension\PageExtension\bin\Debug\PageExtension.pdb
+C:\Users\jay\Documents\Git\aoPageExtension\Source\PageExtension\PageExtension\obj\Debug\PageExtension.dll
+C:\Users\jay\Documents\Git\aoPageExtension\Source\PageExtension\PageExtension\obj\Debug\PageExtension.pdb

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<Collection name="Page Extension" guid="{8c982f54-52d5-492d-851c-cffed0ebf3f7}" system="No" updatable="Yes" blockNavigatorNode="No">
+	<HelpLink></HelpLink>
+	<Help></Help>
+	<Addon name="Page Extension" guid="{FA71811C-257B-4631-ADF9-D7F2CEB7489A}" type="Add-on">
+		<Copy></Copy>
+		<CopyText></CopyText>
+		<ActiveXProgramID></ActiveXProgramID>
+		<DotNetClass><![CDATA[Contensive.Addons.PageExtensions.Views.PageClass]]></DotNetClass>
+		<ArgumentList><![CDATA[ExtensionName]]></ArgumentList>
+		<AsAjax>No</AsAjax>
+		<Filter>No</Filter>
+		<Help></Help>
+		<HelpLink></HelpLink>
+		<Icon Link="" width="0" height="0" sprites="0" />
+		<InIframe>No</InIframe>
+		<BlockEditTools>No</BlockEditTools>
+		<FormXML></FormXML>
+		<IsInline>No</IsInline>
+		<JavascriptInHead></JavascriptInHead>
+		<javascriptForceHead>No</javascriptForceHead>
+		<JSHeadScriptSrc></JSHeadScriptSrc>
+		<!-- deprecated --><JSBodyScriptSrc></JSBodyScriptSrc>
+		<!-- deprecated --><JavascriptBodyEnd></JavascriptBodyEnd>
+		<!-- deprecated --><JavascriptOnLoad></JavascriptOnLoad>
+		<Content>Yes</Content>
+		<Template>Yes</Template>
+		<Email>No</Email>
+		<Admin>No</Admin>
+		<OnPageEndEvent>No</OnPageEndEvent>
+		<OnPageStartEvent>No</OnPageStartEvent>
+		<OnBodyStart>No</OnBodyStart>
+		<OnBodyEnd>No</OnBodyEnd>
+		<RemoteMethod>No</RemoteMethod>
+		<ProcessRunOnce>No</ProcessRunOnce>
+		<ProcessInterval>0</ProcessInterval>
+		<MetaDescription></MetaDescription>
+		<OtherHeadTags></OtherHeadTags>
+		<PageTitle></PageTitle>
+		<RemoteAssetLink></RemoteAssetLink>
+		<Styles></Styles>
+		<Scripting Language="VBScript" EntryPoint="" Timeout="60000"/>
+	</Addon>
+	<Resource name="pageextension.png" type="www" path="images" />
+	<Resource name="PageExtension.dll" type="executable" path="" />
+	<Resource name="PageExtension.dll.config" type="executable" path="" />
+	<Resource name="jaywithkidsoct04.jpg" type="www" path="images" />
+	<Description>Creates blocks of copy that can be placed in the template, and follows either the page or the section.</Description>
+</Collection>
