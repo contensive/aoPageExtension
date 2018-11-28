@@ -62,7 +62,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="CPBase, Version=4.1.2.0, Culture=neutral, PublicKeyToken=10b3c53389b845fb, processorArchitecture=MSIL">
-      <HintPath>..\packages\Contensive.CPBaseClass.5.0.3\lib\net461\CPBase.dll</HintPath>
+      <HintPath>..\packages\Contensive.CPBaseClass.5.0.4\lib\net461\CPBase.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Microsoft.VisualBasic" />
@@ -74,6 +74,7 @@
     <Compile Include="constants.cs" />
     <Compile Include="Controllers\genericController.cs" />
     <Compile Include="Models\baseModel.cs" />
+    <Compile Include="Models\pageContentModel.cs" />
     <Compile Include="Models\_blankModel.cs" />
     <Compile Include="Views\PageClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
