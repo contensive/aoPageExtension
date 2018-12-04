@@ -2,6 +2,103 @@
 <Collection name="Page Extension" guid="{8c982f54-52d5-492d-851c-cffed0ebf3f7}" system="No" updatable="Yes" blockNavigatorNode="No">
 	<HelpLink></HelpLink>
 	<Help></Help>
+	<Addon name="_PageExtensionSectionUpdate" guid="{d82401a9-823a-4518-b714-19c7b24ff368}" type="Add-on">
+		<Copy></Copy>
+		<CopyText></CopyText>
+		<ActiveXProgramID></ActiveXProgramID>
+		<DotNetClass></DotNetClass>
+		<ArgumentList></ArgumentList>
+		<AsAjax>No</AsAjax>
+		<Filter>No</Filter>
+		<Help></Help>
+		<HelpLink></HelpLink>
+		<Icon Link="" width="0" height="0" sprites="0" />
+		<InIframe>No</InIframe>
+		<BlockEditTools>Yes</BlockEditTools>
+		<FormXML></FormXML>
+		<IsInline>No</IsInline>
+		<JavascriptInHead></JavascriptInHead>
+		<javascriptForceHead>No</javascriptForceHead>
+		<JSHeadScriptSrc></JSHeadScriptSrc>
+		<!-- deprecated --><JSBodyScriptSrc></JSBodyScriptSrc>
+		<!-- deprecated --><JavascriptBodyEnd></JavascriptBodyEnd>
+		<!-- deprecated --><JavascriptOnLoad></JavascriptOnLoad>
+		<Content>No</Content>
+		<Template>No</Template>
+		<Email>No</Email>
+		<Admin>No</Admin>
+		<OnPageEndEvent>No</OnPageEndEvent>
+		<OnPageStartEvent>No</OnPageStartEvent>
+		<OnBodyStart>No</OnBodyStart>
+		<OnBodyEnd>No</OnBodyEnd>
+		<RemoteMethod>No</RemoteMethod>
+		<ProcessRunOnce>No</ProcessRunOnce>
+		<ProcessInterval>0</ProcessInterval>
+		<MetaDescription></MetaDescription>
+		<OtherHeadTags></OtherHeadTags>
+		<PageTitle></PageTitle>
+		<RemoteAssetLink></RemoteAssetLink>
+		<Styles></Styles>
+		<Scripting Language="VBScript" EntryPoint="" Timeout="5000">
+			<Code><![CDATA[function m
+dim cs
+set cs = cp.csNew()
+if ( cs.open( "site sections" )) then
+  do
+    sql = "update ccCopyContent set name=REPLACE([name], 'Section-" &  cs.getinteger( "id" ) & "-','SectionX-" &  cs.getinteger( "rootPageId" ) & "-')"
+    m = m & "<br>from section #" & cs.getinteger( "id" ) & " to rootPage #" & cs.getInteger( "rootPageId" )
+    cp.db.executeSql( sql  )
+    cs.goNext()
+  loop while cs.ok()
+
+sql = "update ccCopyContent set name=REPLACE([name], 'SectionX','Section')"
+cp.db.executeSql( sql  )
+
+end if
+cs.close()
+end function
+]]></Code>
+		</Scripting>
+	</Addon>
+	<Addon name="CharConversion" guid="{70217838-f7c9-4b34-a0d5-44a3c08cbdb1}" type="Add-on">
+		<Copy></Copy>
+		<CopyText></CopyText>
+		<ActiveXProgramID></ActiveXProgramID>
+		<DotNetClass><![CDATA[Contensive.Addons.PageExtensions.Views.CharsetConvertClass]]></DotNetClass>
+		<ArgumentList></ArgumentList>
+		<AsAjax>No</AsAjax>
+		<Filter>No</Filter>
+		<Help></Help>
+		<HelpLink></HelpLink>
+		<Icon Link="" width="0" height="0" sprites="0" />
+		<InIframe>No</InIframe>
+		<BlockEditTools>Yes</BlockEditTools>
+		<FormXML></FormXML>
+		<IsInline>No</IsInline>
+		<JavascriptInHead></JavascriptInHead>
+		<javascriptForceHead>No</javascriptForceHead>
+		<JSHeadScriptSrc></JSHeadScriptSrc>
+		<!-- deprecated --><JSBodyScriptSrc></JSBodyScriptSrc>
+		<!-- deprecated --><JavascriptBodyEnd></JavascriptBodyEnd>
+		<!-- deprecated --><JavascriptOnLoad></JavascriptOnLoad>
+		<Content>No</Content>
+		<Template>No</Template>
+		<Email>No</Email>
+		<Admin>No</Admin>
+		<OnPageEndEvent>No</OnPageEndEvent>
+		<OnPageStartEvent>No</OnPageStartEvent>
+		<OnBodyStart>No</OnBodyStart>
+		<OnBodyEnd>No</OnBodyEnd>
+		<RemoteMethod>No</RemoteMethod>
+		<ProcessRunOnce>No</ProcessRunOnce>
+		<ProcessInterval>0</ProcessInterval>
+		<MetaDescription></MetaDescription>
+		<OtherHeadTags></OtherHeadTags>
+		<PageTitle></PageTitle>
+		<RemoteAssetLink></RemoteAssetLink>
+		<Styles></Styles>
+		<Scripting Language="" EntryPoint="" Timeout="5000"/>
+	</Addon>
 	<Addon name="Page Extension" guid="{FA71811C-257B-4631-ADF9-D7F2CEB7489A}" type="Add-on">
 		<Copy></Copy>
 		<CopyText></CopyText>
@@ -42,8 +139,7 @@
 		<Scripting Language="VBScript" EntryPoint="" Timeout="60000"/>
 	</Addon>
 	<Resource name="pageextension.png" type="www" path="images" />
+	<Resource name="jaywithkidsoct04.jpg" type="www" path="images" />
 	<Resource name="PageExtension.dll" type="executable" path="" />
 	<Resource name="PageExtension.dll.config" type="executable" path="" />
-	<Resource name="jaywithkidsoct04.jpg" type="www" path="images" />
-	<Description>Creates blocks of copy that can be placed in the template, and follows either the page or the section.</Description>
 </Collection>

@@ -24,7 +24,6 @@ namespace PageExtension {
            
             public bool AllowBrief { get; set; }
             public bool AllowChildListDisplay { get; set; }
-            public bool AllowEmailPage { get; set; }
             public bool AllowFeedback { get; set; }
             public bool AllowHitNotification { get; set; }
             public bool AllowInChildLists { get; set; }
@@ -33,12 +32,9 @@ namespace PageExtension {
             public bool AllowMessageFooter { get; set; }
             public bool AllowMetaContentNoFollow { get; set; }
             public bool AllowMoreInfo { get; set; }
-            public bool AllowPrinterVersion { get; set; }
             public bool AllowReturnLinkDisplay { get; set; }
             public bool AllowReviewedFooter { get; set; }
             public bool AllowSeeAlso { get; set; }
-            public int AlternateContentID { get; set; }
-            public string AlternateContentLink { get; set; }
             public int ArchiveParentID { get; set; }
             public bool BlockContent { get; set; }
             public bool BlockPage { get; set; }
@@ -56,8 +52,6 @@ namespace PageExtension {
             public DateTime DateArchive { get; set; }
             public DateTime DateExpires { get; set; }
             public DateTime DateReviewed { get; set; }
-            public string DocFilename { get; set; }
-            public string DocLabel { get; set; }
             public string Headline { get; set; }
             public string ImageFilename { get; set; }
             public bool IsSecure { get; set; }
@@ -68,24 +62,13 @@ namespace PageExtension {
             public string Link { get; set; }
             public string LinkAlias { get; set; }
             public string LinkLabel { get; set; }
-            public string Marquee { get; set; }
             public string MenuHeadline { get; set; }
-            public string MenuImageFileName { get; set; }
-            public int OrganizationID { get; set; }
             public string PageLink { get; set; }
             public int ParentID { get; set; }
             public string ParentListName { get; set; }
-            public string PodcastMediaLink { get; set; }
-            public int PodcastSize { get; set; }
             public DateTime PubDate { get; set; }
             public int RegistrationGroupID { get; set; }
-            public bool RegistrationRequired { get; set; }
             public int ReviewedBy { get; set; }
-            public DateTime RSSDateExpire { get; set; }
-            public DateTime RSSDatePublish { get; set; }
-            public string RSSDescription { get; set; }
-            public string RSSLink { get; set; }
-            public string RSSTitle { get; set; }
             public int TemplateID { get; set; }
             public int TriggerAddGroupID { get; set; }
             public int TriggerConditionGroupID { get; set; }
@@ -118,8 +101,8 @@ namespace PageExtension {
             }
             //
             //====================================================================================================
-            public new void save<T>(CPBaseClass cp) where T : baseModel {
-                base.save<T>(cp);
+            public new void save(CPBaseClass cp) {
+                base.save<PageContentModel>(cp);
             }
             //
             //====================================================================================================

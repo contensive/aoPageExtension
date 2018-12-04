@@ -76,6 +76,7 @@
     <Compile Include="Models\baseModel.cs" />
     <Compile Include="Models\pageContentModel.cs" />
     <Compile Include="Models\_blankModel.cs" />
+    <Compile Include="Views\CharsetConvertClass.cs" />
     <Compile Include="Views\PageClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
