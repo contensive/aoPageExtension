@@ -49,6 +49,7 @@ namespace Contensive.Addons.PageExtensions {
             {
                 if (usedIdList.Contains(pageId)) { return pageId; }
                 var Page = PageContentModel.create(cp, pageId);
+                if (Page == null) { return pageId; }
                 if (Page.ParentID == 0) { return pageId; }
                 usedIdList.Add(pageId);
                 return getRootPageId(cp, Page.ParentID, usedIdList);

@@ -10,3 +10,4 @@ C:\Users\kmaAdmin\Documents\GitHub\aoPageExtension\Source\PageExtension\PageExte
 C:\Users\kmaAdmin\Documents\GitHub\aoPageExtension\Source\PageExtension\PageExtension\bin\Debug\PageExtension.pdb
 C:\Users\kmaAdmin\Documents\GitHub\aoPageExtension\Source\PageExtension\PageExtension\obj\Debug\PageExtension.dll
 C:\Users\kmaAdmin\Documents\GitHub\aoPageExtension\Source\PageExtension\PageExtension\obj\Debug\PageExtension.pdb
+C:\Users\jay\Documents\Git\aoPageExtension\Source\PageExtension\PageExtension\obj\Debug\PageExtension.csprojResolveAssemblyReference.cache
