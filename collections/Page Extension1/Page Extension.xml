@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="windows-1252"?>
-<Collection name="Page Extension" guid="{8c982f54-52d5-492d-851c-cffed0ebf3f7}" system="No" updatable="No" blockNavigatorNode="No" onInstallAddonGuid="">
+<Collection name="Page Extension" guid="{8c982f54-52d5-492d-851c-cffed0ebf3f7}" system="No" updatable="Yes" blockNavigatorNode="No">
 	<HelpLink></HelpLink>
 	<Help></Help>
 	<Addon name="_PageExtensionSectionUpdate" guid="{d82401a9-823a-4518-b714-19c7b24ff368}" type="Add-on">
@@ -12,7 +12,7 @@
 		<Filter>No</Filter>
 		<Help></Help>
 		<HelpLink></HelpLink>
-		<Icon Link="" width="50" height="50" sprites="0" />
+		<Icon Link="" width="0" height="0" sprites="0" />
 		<InIframe>No</InIframe>
 		<BlockEditTools>Yes</BlockEditTools>
 		<FormXML></FormXML>
@@ -32,8 +32,6 @@
 		<OnBodyStart>No</OnBodyStart>
 		<OnBodyEnd>No</OnBodyEnd>
 		<RemoteMethod>No</RemoteMethod>
-		<Diagnostic>No</Diagnostic>
-		<Diagnostic>No</Diagnostic>
 		<ProcessRunOnce>No</ProcessRunOnce>
 		<ProcessInterval>0</ProcessInterval>
 		<MetaDescription></MetaDescription>
@@ -41,7 +39,6 @@
 		<PageTitle></PageTitle>
 		<RemoteAssetLink></RemoteAssetLink>
 		<Styles></Styles>
-		<styleslinkhref></styleslinkhref>
 		<Scripting Language="VBScript" EntryPoint="" Timeout="5000">
 			<Code><![CDATA[function m
 dim cs
@@ -73,7 +70,7 @@ end function
 		<Filter>No</Filter>
 		<Help></Help>
 		<HelpLink></HelpLink>
-		<Icon Link="" width="50" height="50" sprites="0" />
+		<Icon Link="" width="0" height="0" sprites="0" />
 		<InIframe>No</InIframe>
 		<BlockEditTools>Yes</BlockEditTools>
 		<FormXML></FormXML>
@@ -93,8 +90,6 @@ end function
 		<OnBodyStart>No</OnBodyStart>
 		<OnBodyEnd>No</OnBodyEnd>
 		<RemoteMethod>No</RemoteMethod>
-		<Diagnostic>No</Diagnostic>
-		<Diagnostic>No</Diagnostic>
 		<ProcessRunOnce>No</ProcessRunOnce>
 		<ProcessInterval>0</ProcessInterval>
 		<MetaDescription></MetaDescription>
@@ -102,8 +97,7 @@ end function
 		<PageTitle></PageTitle>
 		<RemoteAssetLink></RemoteAssetLink>
 		<Styles></Styles>
-		<styleslinkhref></styleslinkhref>
-		<Scripting Language="VBScript" EntryPoint="" Timeout="5000"/>
+		<Scripting Language="" EntryPoint="" Timeout="5000"/>
 	</Addon>
 	<Addon name="Page Extension" guid="{FA71811C-257B-4631-ADF9-D7F2CEB7489A}" type="Add-on">
 		<Copy></Copy>
@@ -115,7 +109,7 @@ end function
 		<Filter>No</Filter>
 		<Help></Help>
 		<HelpLink></HelpLink>
-		<Icon Link="" width="50" height="50" sprites="0" />
+		<Icon Link="" width="0" height="0" sprites="0" />
 		<InIframe>No</InIframe>
 		<BlockEditTools>No</BlockEditTools>
 		<FormXML></FormXML>
@@ -135,8 +129,6 @@ end function
 		<OnBodyStart>No</OnBodyStart>
 		<OnBodyEnd>No</OnBodyEnd>
 		<RemoteMethod>No</RemoteMethod>
-		<Diagnostic>No</Diagnostic>
-		<Diagnostic>No</Diagnostic>
 		<ProcessRunOnce>No</ProcessRunOnce>
 		<ProcessInterval>0</ProcessInterval>
 		<MetaDescription></MetaDescription>
@@ -144,7 +136,6 @@ end function
 		<PageTitle></PageTitle>
 		<RemoteAssetLink></RemoteAssetLink>
 		<Styles></Styles>
-		<styleslinkhref></styleslinkhref>
 		<Scripting Language="VBScript" EntryPoint="" Timeout="60000"/>
 	</Addon>
 	<Resource name="pageextension.png" type="www" path="images" />

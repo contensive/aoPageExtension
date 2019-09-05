@@ -54,6 +54,7 @@ namespace Contensive.Addons.PageExtensions {
                 usedIdList.Add(pageId);
                 return getRootPageId(cp, Page.ParentID, usedIdList);
             }
+
         }
 
     }
