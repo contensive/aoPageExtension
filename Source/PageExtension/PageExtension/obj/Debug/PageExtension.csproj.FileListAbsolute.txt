@@ -11,3 +11,10 @@ C:\Users\kmaAdmin\Documents\GitHub\aoPageExtension\Source\PageExtension\PageExte
 C:\Users\kmaAdmin\Documents\GitHub\aoPageExtension\Source\PageExtension\PageExtension\obj\Debug\PageExtension.dll
 C:\Users\kmaAdmin\Documents\GitHub\aoPageExtension\Source\PageExtension\PageExtension\obj\Debug\PageExtension.pdb
 C:\Users\jay\Documents\Git\aoPageExtension\Source\PageExtension\PageExtension\obj\Debug\PageExtension.csprojAssemblyReference.cache
+C:\Git\aoPageExtension\Source\PageExtension\PageExtension\bin\Debug\PageExtension.dll.config
+C:\Git\aoPageExtension\Source\PageExtension\PageExtension\bin\Debug\PageExtension.dll
+C:\Git\aoPageExtension\Source\PageExtension\PageExtension\bin\Debug\PageExtension.pdb
+C:\Git\aoPageExtension\Source\PageExtension\PageExtension\obj\Debug\PageExtension.csprojAssemblyReference.cache
+C:\Git\aoPageExtension\Source\PageExtension\PageExtension\obj\Debug\PageExtension.csproj.CoreCompileInputs.cache
+C:\Git\aoPageExtension\Source\PageExtension\PageExtension\obj\Debug\PageExtension.dll
+C:\Git\aoPageExtension\Source\PageExtension\PageExtension\obj\Debug\PageExtension.pdb
