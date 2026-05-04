@@ -1,4 +1,7 @@
-<Collection name="Page Extension" guid="{8C982F54-52D5-492D-851C-CFFED0EBF3F7}" Version="1">
+<Collection name="Page Extension" guid="{8C982F54-52D5-492D-851C-CFFED0EBF3F7}" Version="1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="https://contensive.s3.amazonaws.com/xsd/Collection.xsd"
+>
   <Description>Creates blocks of copy that can be placed in the template, and follows either the page or the section.</Description>
   <Interfaces>
     <Page name='Page Extension' guid='{FA71811C-257B-4631-ADF9-D7F2CEB7489A}'>
